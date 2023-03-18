@@ -11,14 +11,18 @@
 
 int main(void)
 {
+	int n = 97;
+	int m = 65;
 
-	for (int i = 97; i <= 122; i++)
+	while (n <= 122)
 	{
-		putchar(i);
+		putchar(n);
+		n++;
 	}
-	for (int i = 65; i <= 90; i++)
+	while (m <= 90)
 	{
-		putchar(i);
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
