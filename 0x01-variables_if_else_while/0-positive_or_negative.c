@@ -7,7 +7,7 @@
  *
  * Description: print whether the number stored is positive or negative
  *
- * return: always 0 (Success)
+ * Return: always 0 (Success)
 */
 
 int main(void)
