@@ -7,7 +7,7 @@
  *
  * Description: print whether the number stored is positive or negative
  *
- * return: 0 (Success)
+ * return: always 0 (Success)
 */
 
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d is positfive\n", n);
+		printf("%d is positive\n", n);
 	}
 	if (n == 0)
 	{
