@@ -12,23 +12,27 @@
 int main(void)
 {
 	int n = 48;
+	int m = 49;
+	int z;
 
 	while (n <= 56)
 	{
-		int m = 49;
-
-		while (m <= 57)
+		z = m;
+		while (z <= 57)
 		{
 			putchar(n);
-			putchar(m);
+			putchar(z);
+			if (n == 56 && z == 57)
+			{
+				break;
+			}
 			putchar(44);
 			putchar(32);
-			m++;
+			z++;
 		}
+		z = m++;
 		n++;
 	}
 	putchar('\n');
 	return (0);
 }
-
-
