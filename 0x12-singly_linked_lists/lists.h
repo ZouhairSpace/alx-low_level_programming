@@ -2,6 +2,9 @@
 #define LISTS_HEADER
 #include <stdlib.h>
 #include <string.h>
+
+typedef unsigned long size_t;
+
 /**
  * struct list_s - siingly linked list
  * @str: string - (malloc'd string)
@@ -11,6 +14,7 @@
  * Description: singly linked list node structure
  * Made by ZOUHAIR
  */
+
 typedef struct list_s
 {
 	char *str;
